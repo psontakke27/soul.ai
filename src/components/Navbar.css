@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+}
+
+.hamburger {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  display: none;
+} 
+ 
+@media (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+} 
